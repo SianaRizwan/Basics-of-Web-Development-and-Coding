@@ -1,0 +1,16 @@
+label{
+    display: block;
+    padding: 0%;
+    background-color: rgb(218, 255, 218);
+    font: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10%;
+  }
+  input:focus{
+    background-color: #B3B3B3;
+}
+#nick{
+    margin-left: 4%;
+    display:none;
+    width: 50%;
+}
