@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<script src="libSimpleImage.js"></script>
 	<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
 
 
@@ -15,17 +16,25 @@
 <h2 class="nomarginbottom">Load Image:</h2>
 <input id="file" type="file" multiple="false" accept="image/*" onchange="loadImage()">
 
+<div>
+	<button onclick="window.location.href = 'index.html';">Clear Image</button>
+	</div>
+	
+
 
 <h2 class="nomarginbottom">Choose Filter:</h2>
 <div class="filters">
 	<input id="btnRed" type="button" value="Red Filter" onclick="makeRed()">
-	<input id="btnRainbow" type="button" value="Rainbow Filter" onclick="makeRainbow()">
+	<input id="btnGreen" type="button" value="Full Green Filter" onclick="makeGreen()">
 	<input id="btnGrey" type="button" value="Greyscale Filter" onclick="makeGrey()">
+	<input id="btnBlue" type="button" value="Full Blue Filter" onclick="makeBlue()">
+	<input id="btnRainbow" type="button" value="Rainbow Filter" onclick="makeRainbow()">
 </div>
 
 
 <h2 class="nomarginbottom">Reset Image Filter</h2>
 <input id="btnReset" type="button" value="Reset Image" onclick="resetImage()">
+
 
 <!--Duke University Image Library -->
 <script src="script.js"></script>

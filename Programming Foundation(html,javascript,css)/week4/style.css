@@ -9,6 +9,9 @@ body {
 	justify-content: center;
 	height: 80vh;
 }
+div{
+	margin-top: 1%;
+}
 
 #canvas {
 	border: 1px solid;
