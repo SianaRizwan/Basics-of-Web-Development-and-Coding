@@ -1,0 +1,12 @@
+console.log("Hello World");
+var fn = function () { return 'response'; };
+var a;
+a = 10;
+var b;
+b = true;
+var myArr;
+myArr = [];
+myArr = [1, 2, 3];
+//ERROR -> myArr = ['Boom']/1;
+myArr.push(5);
+a = myArr.pop();
